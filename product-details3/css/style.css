@@ -1,0 +1,200 @@
+/*======================
+   01. Google fonts
+========================*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500&display=swap');
+
+
+/*======================
+   02. Basic css
+========================*/
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+i,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 26px;
+	font-size: 16px;
+	background: linear-gradient(to right, #fa2456, #fd735a, #fa2456, #fd735a);
+	color: #ffffff;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: 'Jost', sans-serif;
+	color: #ffffff;
+}
+
+.product-wrapper {
+	padding: 50px 0;
+}
+
+.product-img .carousel-indicators {
+	position: relative;
+	right: auto;
+	bottom: auto;
+	left: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	flex-wrap: wrap;
+}
+
+.product-img .carousel-indicators [data-bs-target] {
+	flex: unset;
+	width: auto;
+	height: auto;
+	margin-right: 0;
+	margin-left: 0;
+	text-indent: 0;
+	opacity: 1;
+	transition: opacity .6s ease;
+	border: transparent;
+	margin-top: 30px;
+	background-color: transparent;
+}
+
+.product-img .carousel-indicators img {
+	width: 160px;
+	height: 160px;
+	object-fit: cover;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.product-box {
+	padding-left: 40px;
+}
+
+.product-box h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.star-box {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #c2bcbc;
+    margin-bottom: 25px;
+}
+
+.star-box a {
+	font-size: 18px;
+	color: #6d18ef;
+}
+
+.star-box p {
+	font-size: 18px;
+	margin-left: 20px;
+	color: #ffffff;
+}
+
+.product-box h5 {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.product-box h5 span {
+    font-size: 17px;
+    color: #ffffff !important;
+}
+
+.product-box h3 {
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.product-spinner {
+	margin-left: 20px;
+}
+
+.product-spinner input,
+.product-spinner button {
+	background: none;
+	color: #6d18ef;
+	font-size: 22px;
+	padding: 15px 24px;
+	border: 1px solid #6d18ef;
+}
+
+.product-spinner button:first-child {
+	border-right: 1px solid #6d18ef;
+	border-radius: 100px 0 0 100px;
+}
+
+.product-spinner button:last-child {
+	border-left: 1px solid #6d18ef;
+	border-radius: 0 100px 100px 0;
+}
+
+
+.product-spinner button {
+
+}
+
+.make-btn {
+    background: linear-gradient(257deg, rgba(24,110,242,1) 0%, rgba(109,24,239,1) 100%);
+    font-size: 17px;
+    line-height: 28px;
+    padding: 15px 35px;
+    color: #ffffff;
+    display: inline-flex;
+    border-radius: 5px;
+    font-weight: 500;
+    margin: 30px 20px 30px 0;
+    transition: .3s;
+}
+
+.make-btn:hover {
+	background: linear-gradient(257deg, rgba(109,24,239,1) 0%, rgba(24,110,242,1)  100%);
+	color: #ffffff;
+}
+
+.product-box h2 span {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.carousel-indicators .active img {
+	border: 1px solid #000000;
+}
